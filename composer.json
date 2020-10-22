@@ -1,0 +1,22 @@
+{
+    "name": "zhanglei/woole-apollo-client",
+    "description": "基于swoole的apollo协程客户端",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "LeiZhang-Hunter",
+            "email": "357733652@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Component\\": "src/Component/",
+            "Framework\\": "src/"
+        }
+    }
+}
