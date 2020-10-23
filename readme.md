@@ -64,6 +64,18 @@ $agent = new SwooleApolloManager([
 $agent->start();
 ```
 
+## 启动
+
+```
+    php run.php start
+```
+
+##停止
+
+```
+    php run.php stop
+```
+
 
 ## License
 
